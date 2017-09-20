@@ -1,0 +1,174 @@
+/* ==========================================================================
+   CSS personalizado
+   ========================================================================== */
+
+body {
+background-attachment: fixed;
+padding-top: 30px;
+padding-bottom: 40px;
+/*background-image: url('../img/page.jpeg');*/
+}
+pagina{
+background:white;
+border-radius: 5px;
+margin:5px auto;
+border:1px double transparent;
+box-shadow: 2px 5px 8px  #000000;
+}
+
+.container {
+  margin: 0 auto;
+}
+#background{
+}
+#nav{
+   background:#ccc;
+   margin: auto;
+   margin-top: 0px;
+   border:0px solid #49afcd;
+   box-shadow: 1px 1px 1px gray;
+    
+
+}
+#nav ul li a{
+    border-left:1px solid #eeeeee;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:black;
+}
+
+#nav ul li a:hover{
+    background: #005580;
+    border-radius:2px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    color: white;
+}
+.container .nav nav-bar{
+    border: 1px solid #eeeeee;
+    box-shadow: 4px #000000;
+    background: silver;
+}
+.span3 h4{
+ margin-left:10px;   
+}
+#coluna {
+    border-radius: 5px;
+    margin-top:10px;
+    height: auto;
+background:  whitesmoke;   
+}
+.span7 p{
+    margin-left:10px;
+}
+.span9 h4{
+ margin-left:10px;   
+}
+.span12{
+    border-radius: 0px;
+     margin-top: 0px;
+
+}
+.span12 p{
+    
+ margin-left:10px;
+ margin-right:40px; 
+   
+}
+.span6 p{
+    
+   margin-top:50px;
+   border: 0px  solid black;
+}
+.span3 p .img{
+    width: 130px;
+    height: 110px;
+    margin-left:110px;
+   border: 0px  solid black;
+}
+.span4{
+    
+   border: 0px  solid black;
+    
+}
+.span12 .form-search{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.label-info{
+    margin-top:50px;
+    background: white;
+}
+.text-info{
+    height: 30px;
+    margin: 0px;
+   
+}
+.label-info h4{
+    margin-left:10px;
+ 
+}
+.span5 label-info h4{
+    margin-left:-10px;
+ 
+}
+#rodape{
+    color: white;
+    border-radius: 5px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+    background:#005580;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p{
+        margin-right:15px;
+        margin-left:15px;
+	text-align:justify;
+}
+h4{
+    margin-left:20px;
+}
+.hero-unit{
+    max-width: 960px;
+padding-bottom:80px;
+}
+.hero-unit p{
+        
+	text-align:left;
+	color: white;
+
+}
+.hero-unit p img{
+margin-top:0px;
+}
+#page-header{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px; 
+    margin-top:40px;
+    background: #005580;
+   /* background-image: URL('../img/banner.png');*/
+    background-repeat: no-repeat;
+    
+}
+.submenu p input{
+	margin-top:10px;
+}
+#promocao {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.form-actions{
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+.navbar-fixed {
+
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR" class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+
+        <title>Twitter Bootstrap</title>
+
+        <script src="js/jquery-1.8.1.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/modernizr-2.6.1.min.js"></script>
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <div id="pagina">
+         <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+         <div id="nav" class="navbar-inner"> 
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <div id="nav" class="nav-collapse collapse">
+            <ul  class="nav">
+                <li role="presentation"><a href="index.html" ><i class="icon-home"></i>Home</a></li>
+                <li role="presentation"><a href="sevirco.html"><i class="icon-wrench"></i>Sevirços</a></li>
+                <li role="presentation"><a href="empresa.html"><i class="icon-leaf"></i>Empresa</a></li>
+                <li role="presentation"><a href="contato.html"><i class="icon-envelope"></i>Contato</a></li>
+            </ul>
+            
+            </div>
+        </div>
+          </div>
+         </nav>
+        <div  id="page-header" class="container">
+
+            <!-- Hero unit para o showcase -->
+            <div class="hero-unit">
+               
+               
+                <p><img src="img/logo.png"></p>
+                <p><small>Desenvolvimento web e sites responsivos</small></p>
+                
+            </div>
+                    
+               
+            
+        </div> <!-- /container hero -->
+
+        <!-- Aqui colocaremos nosso container e uma linha com 3 colunas -->
+        <div id="background" class="container">
+            <div class="row-fluid">
+                <div class="span3">
+                    <h4>Enviar e-mail</h4> 
+                   
+                       
+                       <form name="email" method="post" action="class/contato.php"> 
+                           <p>
+                       <br />
+                        Seu e-mail<br />
+                                    <input type="text" name="email">
+                               <br />
+                            
+                               
+                        Assunto<br />
+                        <select name="assunto">
+                            <option value="">Escolha.....</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="suport">Suporte</option>
+                            <option value="servico">Sevirços</option>
+                        </select>
+                              <br />    
+                                    <textarea  cols="10" rows="7" name="message"></textarea>
+                               <br />
+                               <input type="submit" value="Enviar"><input type="reset" value="cancelar"/>    
+                          
+                           </p>
+                                
+                       </form>
+                   
+                </div>
+                
+                <div class="span6">
+                    <h4>Contato e atendimento ao cliente</h4>
+                 
+                       
+                    <p>
+                        
+                        Nos temos um enorme satisfação em atende-lo,estamos a sua disposição para
+                        esclarecimentos de nossos serviços.Fique a vontade pra fazer perguntas,solicitações,reclamações,
+                        sugestão,elogios,críticas.Responderemos os mais breve possível!
+                    
+                     
+                        
+                    </p>
+                  
+                   
+                </div>
+                 <div class="span3">
+                    <h4>Fale com a web system</h4>
+                 
+                    <p>  
+                        Telefone:89578193<br />
+                        E-mail:mardonisgp@gmail.com ou<br />
+                        mardonisalves@hotmail.com
+                        <br />
+                        Se preferir você pode solicitar uma visita
+                        para conversar-mos pessoalmente.<br /><br />
+                       
+                   </p>
+                 </div>
+              
+              
+               
+            </div>
+        </div>
+            <!-- /container 2-->
+       
+        <div class="container">
+        <div id="rodape" class="container-fluid">
+            <div class="row-fluid">
+                <div class="span3 footer">
+                    <h4>Redes socias</h4>
+                    <p><img src="img/face.png">
+                        
+                    <img src="img/tw.png">
+                   
+                    <img src="img/din.png">
+                    </p>
+                </div>
+                <div class="span5 footer">
+                    <h4>Emdereço</h4>
+                    <p>
+                        Cidade:Pacatuba-ce Cep:61800-000
+                        Rua:Francisco pereira da silva n°/53
+                        Bairro:São Bento Telefone:(085)8957-8193
+                    </p> 
+                </div>
+                
+               
+            </div>
+        </div>
+        </div>
+        </div>
+       
+        <!-- Script para o Google Analytics-->
+        <script>
+            var _gaq = [['_setAccount', 'xxxxxxxxxxxxxx'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR" class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
+
+        <title>Twitter Bootstrap</title>
+
+        <script src="js/jquery-1.8.1.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/modernizr-2.6.1.min.js"></script>
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+       
+    </head>
+    <body >
+        
+        <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+         <div id="nav" class="navbar-inner"> 
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <div id="nav" class="nav-collapse collapse">
+            <ul  class="nav">
+                <li role="presentation"><a accesskey="w" href="index.html" >Home</a></li>
+                <li role="presentation"><a href="sevirco.html">Sevirços</a></li>
+                <li role="presentation"><a href="empresa.html">Empresa</a></li>
+                <li role="presentation"><a  accesskey="s" href="contato.html">Contato</a></li>
+            </ul>
+            
+            </div>
+        </div>
+          </div>
+         </nav>
+        <div id="pagina"> 
+        <div  id="page-header"class="container">
+            <div  id="container">
+              
+            </div>    
+            <!-- Hero unit para o showcase -->
+            <div class="hero-unit">
+               
+               
+                <p><img src="img/logo.png" alt="Web-sites"></p>
+                <p><small>Desenvolvimento web e sites responsivos</small></p>
+                
+            </div>
+                    
+               
+            
+        </div> <!-- /container hero -->
+         
+      
+
+        <div class="container">
+        </div>
+        <!-- Aqui colocaremos nosso container e uma linha com 3 colunas -->
+        <div id="background" class="container">
+            <div class="row-fluid">
+                <div id="coluna" class="span3">
+                    <h4>Administrador</h4>
+                 <!---Login-------------------------------------------------->
+                 <form name="login" method="post" action="class/class.login.php">
+                     <fieldset>
+                         
+                    <p>
+                            
+                    
+                            <label></label>
+                            <i class="icon-user"></i><br /><input type="text" name="admin" ><br>
+                            <label></label>
+                            <i class="icon-lock"></i><br /><input type="password" name="senha">
+                            <label></label>
+                            <button class="btn">Login</button>
+                             <button class="btn">Cancelar</button>
+                            
+                    
+                    </p>
+                    </fieldset>
+                 </form>
+                 <div class="span8">
+                      <h4>Nossa Emquete</h4>
+                    <!---------Emquete-------------------------->
+                   <form name="enquete" method="post" action="class/class.inserir.php">
+                       <fieldset>
+                    
+                  
+                    <p>
+                         
+                       Qual é a sua real nescessidade?
+                       <br />
+                       <br />
+                       <label>Nome</label>
+                       <input type="text" name="nome">
+                        <label>E-mail</label>
+                       <input type="text" name="email">
+                        <label>Sua Resposta</label>
+                       
+                        <input type="radio" name="enquete" value="loja">Loja Virtual<br />
+                        <input type="radio" name="enquete" value="site">website<br />
+                        <input type="radio" name="enquete" value="gerenciador">Systema de controle de estoque<br/>
+                        <input type="radio" name="enquete" value="fitness">Systema fitness para academia
+                    <p><button class="btn">Respoder</button></p>
+                   </p>
+                       </fieldset>
+                   </form>
+                 </div>
+                </div>
+                <div class="span8">
+                    <h4>Nossas ofetas</h4>
+                    <!---<img src="img/preco.png">--->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est
+                    </p>
+                   
+                </div>
+                <div class="span4">
+                    <h4>Quem somos</h4>
+                    <p><img src="img/bussines.jpg" alt="Web-sites"></p>
+                    <p>A Web system é uma empresa especializada em desenvolvimento web.Os nossos sites
+                    e templates são totalmente responsivos,sendo possivel o acesso de qualquer dispositivo móvel.
+                    O nosso foco é satisfazer o cliente,pos temos compromissos e prasos.
+                    </p>
+                
+                </div>
+                <div  class="span4">
+                    <h4>Nossos serviços</h4>
+                       <img src="img/boot.png" alt="Web-sites" />
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipisicing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.
+                    </p>
+                   
+                </div>
+              
+               
+            </div>
+        </div>
+            <!-- /container 2-->
+    
+        <div class="container">
+        <div id="rodape" class="container-fluid">
+            <div class="row-fluid">
+                <div class="span3 footer">
+                    <h4>Redes socias</h4>
+                    <p><img src="img/face.png">
+                        
+                    <img src="img/tw.png">
+                   
+                    <img src="img/din.png">
+                    </p>
+                </div>
+                <div class="span5 footer">
+                    <h4>Emdereço</h4>
+                    <p>
+                        Cidade:Pacatuba-ce Cep:61800-000
+                        Rua:Francisco pereira da silva n°/53
+                        Bairro:São Bento Telefone:(085)8957-8193
+                    </p> 
+                </div>
+                
+               
+            </div>
+        </div>
+        </div>
+        </div>
+       
+        <!-- Script para o Google Analytics-->
+        <script>
+            var _gaq = [['_setAccount', 'xxxxxxxxxxxxxx'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+    </body>
+</html>
